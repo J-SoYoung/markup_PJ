@@ -1,0 +1,80 @@
+
+.blog-titBox { 
+  padding: 80px; box-sizing: border-box;
+  text-align: center;  
+}
+.blog-titBox h3 { 
+  font-size: 45px; 
+  margin-bottom: 30px;
+}
+.blog-titBox .text-p { 
+  display : inline-block;
+  width: 500px;
+}
+.blog-contBox { 
+  display: flex; 
+  justify-content: space-between;
+  align-items: flex-start; 
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.blog-list { 
+  width: 48%; 
+  margin-bottom: 30px;
+}
+.blog-list img {
+  width: 100%; 
+  height: 200px; 
+  object-fit: cover;
+}
+.blog-list div {
+  padding: 20px;
+  box-sizing: border-box;
+}
+.list-day {
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+.list-title {
+  font-family: 'Abril Fatface';
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.list-text {
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+.list-move {
+  font-size: 13px;
+  font-weight: 600;
+}
+.list-move i { 
+  margin-left: 10px;
+}
+/* blog-list*/
+
+@media screen and (max-width: 1199px){
+  .blog-list img { 
+    height: 400px; 
+  }
+}
+@media screen and (max-width: 921px){
+  .blog-contBox { 
+    flex-direction: column;
+  }
+  .blog-list { 
+    width: 100%; 
+  }
+  .blog-list img { 
+    height: 250px; 
+  }
+}
+@media screen and (max-width: 759px){
+  .blog-titBox .text-p { 
+    width: 100%; padding: 0 10px;
+  }
+  .blog-titBox { 
+    padding: 80px 10px;  
+  }
+}

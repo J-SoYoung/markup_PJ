@@ -1,0 +1,26 @@
+
+.about-contain .text-h3{
+  margin-bottom: 30px;
+  padding: 80px; box-sizing: border-box;
+  text-align: center;  
+}
+.about-contain .text-p {
+  width: 700px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+@media screen and (max-width: 921px){
+  .about-contain .text-p { 
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 549px){
+  .about-contain .text-h3{
+    padding: 60px 20px
+  }
+}

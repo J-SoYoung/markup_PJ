@@ -1,0 +1,91 @@
+/* components */
+
+@import '../styles.css';
+@import '../components/nav.css';
+@import '../components/footer.css';
+
+/* page */
+
+
+/* contact */
+.nav { background-color: #7F3F1B ;}
+
+.info-contain { 
+  width: 1000px; margin: 0 auto; 
+  padding: 50px; 
+}
+.info-title { 
+  width: 100%; 
+  padding-bottom: 60px;
+  font-size: 55px; font-family: 'Abril Fatface';
+  text-align: center;
+
+}
+.info-box{ 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: flex-start; }
+
+.info-company, .info-guest {
+  width: 50%;
+}
+.info-company p {
+  margin-bottom: 15px;
+}
+.info-company p i { 
+  margin-right: 5px;
+}
+.info-guest p { 
+  margin-bottom: 10px; 
+}
+.info-guest input, .info-guest textarea { 
+  margin-bottom: 25px; 
+  width: 100%; 
+  height: 50px;
+  padding: 15px; 
+  box-sizing: border-box;
+  border: none;
+  background-color: #f1f3f5;
+}
+.info-guest textarea {
+  height: 80px;
+}
+.info-guest button {
+  background-color: #7F3F1B ;
+  height: 50px;
+  width: 150px;
+  padding: 15px; 
+  box-sizing: border-box;
+  border: none;
+  color: white;
+}
+
+@media screen and (max-width: 1199px){
+  .info-contain { width: 100%;}
+}
+@media screen and (max-width: 971px){
+  .info-contain { padding: 0;}
+  .info-title { padding: 60px;
+
+  }
+  .info-box { 
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 60px;
+  }
+  .info-company {
+    margin-bottom: 30px;
+  }
+  .info-guest, .info-company { 
+    width: 100%;}
+}
+
+@media screen and (max-width: 759px){
+  .info-box { 
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 549px){
+  
+}
