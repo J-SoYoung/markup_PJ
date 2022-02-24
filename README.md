@@ -1,8 +1,9 @@
 # markup_PJ
-# view 구현 
+# html, css => view 
 
 # 메인페이지
 ![image](https://user-images.githubusercontent.com/85012454/155481776-785a8e29-15d6-4129-baf0-c5c4470d1c9a.png)
+![image](https://user-images.githubusercontent.com/85012454/155482268-423a44e2-083a-4bcc-96ec-a89ca170726a.png)
 ![image](https://user-images.githubusercontent.com/85012454/155481870-15ebb362-d385-4e8c-8eda-7b40283cfaa8.png)
 ![image](https://user-images.githubusercontent.com/85012454/155481924-0deb96c0-dee3-4b90-ae31-d1291abadb64.png)
 
